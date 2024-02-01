@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Nom du site - TP9</title>
+</head>
+
+<body class="font-serif">
+  <div class="hidden tablet:flex justify-between bg-gray-200 py-1.5 px-4">
+    <a class="underline text-purple-800">
+      Visitez notre autre site
+    </a>
+    <ul class="flex gap-12">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </div>
+  <header
+    class="flex flex-col items-center py-4 gap-6 mb-4 w-full max-w-[380px] tablet:max-w-[700px] desktop:max-w-[950px] px-4 mx-auto">
+    <div class="flex justify-evenly desktop:justify-around w-full tablet:py-2">
+      <h1 class="text-2xl">
+        Nom du site
+      </h1>
+
+      <input type="text" placeholder="Rechercher" class="rounded-lg hidden tablet:block px-2 border-2 border-black">
+    </div>
+    <nav class="w-full">
+      <ul class="relative flex text-center">
+        <li class="tablet:relative group hover:bg-gray-300 w-full py-2">
+          <a class="no-underline group-hover:underline text-black" href="#">
+            Item 1
+          </a>
+          <ul class="py-2 absolute top-full left-0 right-0 hidden group-hover:flex flex-col gap-2 bg-gray-300">
+            <li>
+              <a href="#">Sub-item 1</a>
+            </li>
+            <li>
+              <a href="#">Sub-item 2</a>
+            </li>
+            <li>
+              <a href="#">Sub-item 3</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="tablet:relative group hover:bg-gray-300 w-full py-2">
+          <a class="no-underline group-hover:underline text-black" href="#">
+            Item 2
+          </a>
+          <ul class="py-2 absolute top-full left-0 right-0 hidden group-hover:flex flex-col gap-2 bg-gray-300">
+            <li>
+              <a href="#">Sub-item 5</a>
+            </li>
+            <li>
+              <a href="#">Sub-item 6</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="tablet:relative group hover:bg-gray-300 w-full py-2">
+          <a class="no-underline group-hover:underline text-black" href="#">
+            Item 3
+          </a>
+          <ul class="py-2 absolute top-full left-0 right-0 hidden group-hover:flex flex-col gap-2 bg-gray-300">
+            <li>
+              <a href="#">Sub-item 7</a>
+            </li>
+            <li>
+              <a href="#">Sub-item 8</a>
+            </li>
+            <li>
+              <a href="#">Sub-item 9</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="tablet:relative group hover:bg-gray-300 w-full py-2">
+          <a class="no-underline group-hover:underline text-black" href="#">
+            Item 4
+          </a>
+          <ul class="py-2 absolute top-full left-0 right-0 hidden group-hover:flex flex-col gap-2 bg-gray-300">
+            <li>
+              <a href="#">Sub-item 10</a>
+            </li>
+            <li>
+              <a href="#">Sub-item 11</a>
+            </li>
+            <li>
+              <a href="#">Sub-item 12</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="tablet:relative group hover:bg-gray-300 w-full py-2">
+          <a class="no-underline group-hover:underline text-black" href="#">
+            Item 5
+          </a>
+          <ul class="py-2 absolute top-full left-0 right-0 hidden group-hover:flex flex-col gap-2 bg-gray-300">
+            <li>
+              <a href="#">Sub-item 13</a>
+            </li>
+            <li>
+              <a href="#">Sub-item 14</a>
+            </li>
+          </ul>
+        </li>
+
+
+      </ul>
+    </nav>
+  </header>
+
+  <main class="px-4 max-w-[380px] tablet:max-w-[700px] desktop:max-w-[950px] w-full mx-auto">
+    <section class="flex flex-col gap-4 text-sm">
+      <h2 class="text-xl font-bold">
+        Présentation
+      </h2>
+
+      <div>
+        <img src="./assets/presentation.jpg" alt="Image de présentation"
+          class="h-[220px] w-full max-w-[300px] object-cover mx-auto tablet:float-right tablet:ml-4 mb-4">
+
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed porta justo. Nulla elementum vehicula turpis
+          nec pulvinar. Mauris imperdiet nec magna eget rutrum. Fusce eleifend ex ipsum, vitae vestibulum elit tincidunt
+          vitae. Praesent at massa ornare, condimentum nisl et, hendrerit massa. Etiam mollis risus in massa posuere,
+          vel
+          vulputate ipsum consectetur. Donec sit amet sapien in tellus laoreet egestas nec at sem. Nam fringilla urna
+          neque, nec dictum nisi faucibus eu. Quisque ipsum leo, lacinia vel vehicula et, venenatis eu libero. Cras
+          efficitur mattis lacus, ut pellentesque nisi commodo non. Vestibulum ante ipsum primis in faucibus orci luctus
+          et ultrices posuere cubilia curae; Proin vitae sagittis nisl, non congue metus. Mauris ut dignissim augue, eu
+          vulputate mi. Mauris facilisis, magna eget cursus cursus, tellus nibh venenatis orci, eu maximus neque mauris
+          non sapien. Curabitur sagittis auctor tempus.
+        </p>
+        <p class="text-justify mt-4">
+          Phasellus fringilla eu arcu eget luctus. Curabitur tristique dignissim justo et facilisis. In vel nisl odio.
+          Duis et odio non felis dignissim mollis sed eu magna. Fusce scelerisque, tellus eget pulvinar luctus, dolor
+          augue pulvinar justo, quis venenatis libero turpis placerat mi. Integer tempor, leo sed faucibus consectetur,
+          erat nisi posuere erat, molestie ullamcorper turpis nulla sit amet diam. Fusce nec elementum diam. Nam a
+          hendrerit elit, ac congue purus. Mauris ut felis condimentum ligula fringilla vulputate at ac massa. Aliquam
+          in
+          ultricies odio.
+        </p>
+        <p class="text-justify mt-4">
+          Nam gravida sem dolor, vel ullamcorper nulla feugiat eget. Nullam vitae tincidunt urna. Maecenas commodo urna
+          at
+          erat cursus, non commodo purus posuere. Nam egestas ultrices felis id commodo. Pellentesque dapibus lectus
+          quam,
+          nec cursus nisl malesuada nec. Mauris malesuada, ante non ultricies dapibus, leo dui finibus sem, ut
+          sollicitudin purus nisi sed tortor. Pellentesque malesuada iaculis mi quis semper. Nullam commodo vestibulum
+          dui, porta faucibus odio venenatis sed. Aliquam erat volutpat. Sed mollis iaculis orci, id efficitur risus
+          porta
+          in. <br>
+        </p>
+        <p class="text-justify mt-4">
+          Suspendisse sit amet sagittis neque, eget dapibus mi. Cras placerat nunc in leo porta, vel vehicula erat
+          dapibus. Curabitur faucibus interdum purus, at sagittis odio sollicitudin sed. Nulla laoreet sit amet erat ut
+          hendrerit. Sed sed eleifend leo. Quisque egestas, lorem sit amet ultrices consequat, arcu enim feugiat neque,
+          nec semper felis velit ac justo. Duis neque massa, porta vel pretium vel, tempor aliquet odio. Vestibulum ac
+          egestas eros, ut ultrices leo. Nunc aliquam nisl eu turpis suscipit, a ullamcorper ex sagittis. Class aptent
+          taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer maximus mattis lacinia.
+          Sed et mauris vel nunc molestie fermentum. Phasellus pretium aliquet suscipit.
+        </p>
+      </div>
+
+      <table class="text-xs text-center border-collapse border border-black max-w-[600px] w-full mx-auto">
+        <thead>
+          <tr class="bg-black text-white">
+            <td class="font-bold">Année</td>
+            <th scope="col">Donnée 1</th>
+            <th scope="col">Donnée 2</th>
+            <th scope="col">Donnée 3</th>
+            <th scope="col">Donnée 4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="font-bold bg-black text-white">2018</td>
+            <td class="bg-gray-200">Valeur 1</td>
+            <td class="bg-gray-200">Valeur 2</td>
+            <td class="bg-gray-200">Valeur 3</td>
+            <td class="bg-gray-200">Valeur 4</td>
+          </tr>
+          <tr>
+            <td class="font-bold bg-black text-white">2019</td>
+            <td colspan="3">Valeur 5</td>
+            <td rowspan="2" class="align-top">Valeur 6</td>
+          </tr>
+          <tr>
+            <td class="font-bold bg-black text-white">2020</td>
+            <td class="bg-gray-200">Valeur 7</td>
+            <td class="bg-gray-200">Valeur 8</td>
+            <td class="bg-gray-200">Valeur 9</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="flex gap-6 h-[400px] w-full">
+        <div class="bg-splash w-full"></div>
+        <div class="bg-splash w-full"></div>
+      </div>
+    </section>
+
+    <section class="mt-4">
+      <h2 class="text-xl font-bold">
+        Actualités
+      </h2>
+
+      <div
+        class="flex flex-col tablet:grid grid-cols-1 tablet:grid-cols-2 desktop:flex desktop:flex-row gap-1 tablet:gap-6 mt-2">
+        <article class="flex flex-col">
+          <h3 class="text-lg">
+            Titre
+          </h3>
+
+          <p class="text-justify text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus non magni quaerat? Officia itaque
+            veritatis sequi. Asperiores dolor fugit quis numquam rerum blanditiis dicta veritatis architecto adipisci,
+            mollitia aspernatur?
+          </p>
+
+          <a class="text-purple-800 underline ml-auto">
+            En savoir plus
+          </a>
+        </article>
+        <article class="flex flex-col">
+          <h3 class="text-lg">
+            Titre
+          </h3>
+
+          <p class="text-justify text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus non magni quaerat? Officia itaque
+            veritatis sequi. Asperiores dolor fugit quis numquam rerum blanditiis dicta veritatis architecto adipisci,
+            mollitia aspernatur?
+          </p>
+
+          <a class="text-purple-800 underline ml-auto">
+            En savoir plus
+          </a>
+        </article>
+        <article class="flex flex-col tablet:col-span-2">
+          <h3 class="text-lg">
+            Titre
+          </h3>
+
+          <p class="text-justify text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus non magni quaerat? Officia itaque
+            veritatis sequi. Asperiores dolor fugit quis numquam rerum blanditiis dicta veritatis architecto adipisci,
+            mollitia aspernatur?
+          </p>
+
+          <a class="text-purple-800 underline ml-auto">
+            En savoir plus
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-4 bg-black py-3 text-white px-4">
+    <ul class="flex justify-evenly w-full mx-auto max-w-[380px] tablet:max-w-[700px] desktop:max-w-[950px]">
+      <li>
+        Item 1
+      </li>
+      <li>
+        Item 2
+      </li>
+      <li>
+        Item 3
+      </li>
+      <li>
+        Item 4
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+td, th {
+  padding: 12px 6px;
+  border: 1px solid black;
+}
+
+.bg-splash {
+  background-image: url('./assets/splash.jpg');
+  background-size: cover;
+  background-position: center;
+}

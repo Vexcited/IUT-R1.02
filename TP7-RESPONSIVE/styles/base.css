@@ -1,0 +1,86 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+header {
+  gap: 24px;
+}
+
+nav,
+section {
+  background-color: #2a2a2a;
+}
+
+section {
+  padding: 24px;
+}
+
+section>h2 {
+  font-size: 1.25rem;
+}
+
+nav>ul>li {
+  padding: 12px 0;
+}
+
+main {
+  gap: 24px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+
+  gap: 24px;
+}
+
+.image {
+  background-image: url(../images/banner_mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 125px;
+}
+
+.présentation,
+.actualités {
+  gap: 18px;
+}
+
+nav {
+  display: none;
+}
+
+main {
+  flex-direction: column-reverse;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-full {
+  width: 100%;
+}

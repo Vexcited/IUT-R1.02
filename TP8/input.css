@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-navigation>div>button:hover .menu-navigation>ul {
+  display: block;
+  /* position: absolute; */
+}

@@ -1,0 +1,181 @@
+body {
+  background-color: #ff8800;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid #000;
+  max-width: 300px;
+  margin: 24px auto;
+}
+
+header {
+  height: 200px;
+  gap: 24px;
+}
+
+nav {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+nav>ul>li {
+  width: 100%;
+  padding: 6px 0;
+  font-size: 18px;
+
+  border-right: 3px solid #000;
+}
+
+nav>ul>li:last-child {
+  border-right: none;
+}
+
+header>h1 {
+  font-size: 32px;
+}
+
+main {
+  padding: 24px;
+  padding-bottom: 0;
+}
+
+aside {
+  border: 3px solid #000;
+
+  float: left;
+  width: 240px;
+  padding: 29px;
+  margin: 0 32px 24px 0;
+}
+
+/** Mes classes composées. */
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 14px auto;
+  background-color: #fff;
+  border: 3px solid #000;
+  padding-bottom: 12px;
+}
+
+.ring-outside {
+  position: relative;
+
+  background-image: url("../images/ring.jpg");
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+
+.ring-inside {
+  position: absolute;
+
+  background-color: #fff;
+  border-radius: 50%;
+  inset: 12px;
+}
+
+.ring-inside>span {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.article-image {
+  width: 200px;
+  height: auto;
+}
+
+/**
+ * Mes classes utilitaires
+ * J'utilise un style de classe un peu TailwindCSS
+ * car j'en suis vraiment habitué.
+ */
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin-inline: auto;
+}
+
+.gap-1 {
+  gap: 0.25rem
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.text-black {
+  color: #000;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.border-l {
+  border-left: 3px solid #000;
+}
+
+.border-r {
+  border-right: 3px solid #000;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.text-md {
+  font-size: 18px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.text-right {
+  text-align: right;
+}
